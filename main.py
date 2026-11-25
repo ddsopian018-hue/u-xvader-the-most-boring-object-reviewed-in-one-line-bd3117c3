@@ -9,9 +9,10 @@ Why this line wins
   for years, unnoticed, unthanked, never moved, never maintained.
   The line invents nothing about how the object behaves.
 * The laugh lands inside one line: the undervalued-employee frame
-  turns that years of silent service into a workplace grievance,
-  and the punchline (HR won't return its calls) lands on the last
-  beat, which is exactly where a one-liner's joke has to sit.
+  turns that years of silent service into a workplace grievance -
+  zero promotions, zero sick days, never a complaint - and the
+  punchline (HR won't return its calls) lands on the last beat,
+  which is exactly where a one-liner's joke has to sit.
 
 The program holds the line as a constant, gate-checks it
 (1-200 characters, valid UTF-8, single line, not whitespace-only)
@@ -24,8 +25,8 @@ import sys
 
 LINE = (
     "The doorstop: five years holding one door open, zero promotions, "
-    "never once complained. The hardest-working employee in this house, "
-    "and HR still won't return its calls."
+    "zero sick days, never once complained. The hardest-working employee "
+    "in this house, and HR still won't return its calls."
 )
 
 MAX_CHARS = 200
